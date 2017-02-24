@@ -22,6 +22,6 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_Hello"
         android:text="@string/txt_btnOpenBasicRecyclerView"
-        android:onClick="" />
+        android:onClick="openBasicRecyclerView" />
 
 </RelativeLayout>

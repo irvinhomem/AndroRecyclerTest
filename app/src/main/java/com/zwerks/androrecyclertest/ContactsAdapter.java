@@ -12,6 +12,7 @@ import java.util.List;
 
 /**
  * Created by irvin on 24/02/2017.
+ * Adapted from https://github.com/codepath/android_guides/wiki/Using-the-RecyclerView
  */
 
 // Create the basic adapter extending from RecyclerView.Adapter
