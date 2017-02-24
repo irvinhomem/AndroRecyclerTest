@@ -10,13 +10,18 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.zwerks.androrecyclertest.MainActivity">
 
-    <android.support.v7.widget.RecyclerView
-        android:id="@+id/rvContacts"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-
     <TextView
+        android:id="@+id/txt_Hello"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
+
+    <Button
+        android:id="@+id/btn_openBasicRecycleView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txt_Hello"
+        android:text="@string/txt_btnOpenBasicRecyclerView"
+        android:onClick="" />
+
 </RelativeLayout>

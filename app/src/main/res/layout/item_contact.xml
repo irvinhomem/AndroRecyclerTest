@@ -5,13 +5,13 @@
     android:layout_height="wrap_content">
 
     <TextView
-        android:id="@+id/contact_name"
+        android:id="@+id/txt_contact_name"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"/>
 
     <Button
-        android:id="@+id/message_button"
+        android:id="@+id/btn_message_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="10sp"/>
